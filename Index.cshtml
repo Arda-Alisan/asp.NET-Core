@@ -1,14 +1,11 @@
-@model IEnumerable<HospitalApp.Models.Clinic>
+@using HospitalApp.Models
+@model Appointment
 
-<h1>Clinic List</h1>
+<h1>Private KOLPA HOSPITAL</h1>
+<anch href="/Appointment/Create">Make an appointment</anch>
 
-<ul>
-    @foreach (var clinic in Model)
-    {
-        <li>
-            <anch href="/Clinic/Details/@clinic.Id">
-                @clinic.Name  @clinic.Id
-            </anch>
-        </li>
-    }
-</ul>
+
+
+
+
+
